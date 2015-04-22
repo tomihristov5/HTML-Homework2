@@ -1,0 +1,42 @@
+﻿table {
+    width: 500px;
+    height: 500px;
+    background: #f3f9fa;
+    border: 1px solid #0026ff;
+    border-collapse: collapse;
+    text-shadow: 2px 2px 3px #aaa
+}
+
+td {
+    border: 1px solid #0026ff;
+    text-align: center;
+}
+
+button {
+    background-color: #f3f9fa;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: Consolas;
+    font-weight: bold;
+    color: #0026ff;
+    text-shadow: 2px 2px 3px #808080;
+}
+
+input {
+    
+    display: inline-block;
+    width: 50px;
+    background: #f3f9fa;
+    text-align: right;
+    border: none;
+    font-size: 30px;
+    font-family: Consolas;
+    font-weight: bold;
+    color: #0026ff;
+    text-shadow: 2px 2px 3px #808080;
+}
+td:only-child{
+    text-align: right;
+    padding: 10px 20px;
+}
